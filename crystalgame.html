@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="assets/images/tabart.png"/>
+    <title>Crystal Collector</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="jumbotron">
+        <h1><i class="far fa-gem"></i><strong> Crystals Collector! </strong><i class="far fa-gem"></i></h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3" id="sides">
+            <h1><div id="winner1">Winner!!!</div></h1>
+            <h1><div id ="lose1">You Lose</div></h1>
+        </div>
+        <div class="col-md-3" id="rdmNmbr">
+            <h2>Score to match: <span id="scoreToMatch"></span></h2>
+        </div>
+        <div class="col-md-3" id="WandL">
+            <h3>Wins: <span id="wins"></span></h3>
+            <h3>Losses: <span id="losses"></span></h3>
+        </div>
+        <div class="col-md-3" id="sides">
+            <h1><div id="winner2">Winner!!!</div></h1>
+            <h1><div id="lose2">You Lose</div></h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+                <img src="assets/images/red-crystal.png" class="img-thumnail red" alt="Red Crystal" width="160" height="160">
+        </div>
+        <div class="col">
+                <img src="assets/images/blue-crystal.png" class="img-thumbnail blue" alt="Blue Crystal" width="160" height="160">
+        </div>
+        <div class="col">
+                <img src="assets/images/yellow-crystal.png" class="img-thumnail yellow" alt="Yellow Crystal" width="160" height="160">
+        </div>
+        <div class="col">
+                <img src="assets/images/green-crystal.png" class="img-thumnail green" alt="Green Crystal" width="160" height="160">    
+        </div>
+   
+
+    <div class="row">
+        <div class="col-md-12" id="scoreText">
+            <h2>Your total score is: <span id="totalScore"></span></h2>
+        </div>
+    </div>
+
+</div>
+
+        <script>"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js"</script>
+
+<script>"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"</script>
+
+<script>"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"</script>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
